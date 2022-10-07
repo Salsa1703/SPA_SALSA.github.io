@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 100%;
+	font-family: sans-serif;
+}
+
+div, section, span, ul, li, a, header{
+	box-sizing: border-box;
+}
+
+header{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 50px;
+	align-items: center;
+	position: fixed;
+	z-index: 999;
+}
+#home h2{
+	font-family: cursive;
+	top: 20%;
+}
+html{
+	scroll-behavior:smooth ;
+}
+
+#menu li{
+	list-style: none;
+	display: inline-block;
+	margin: 20px;
+	float: left;
+}
+#menu li a{
+	color: #000;
+	text-decoration: none;
+	font-size: 20px;
+
+}
+
+section{
+	width: 100%;
+	height: 100vh;
+	float: left;
+	position: relative;
+}
+#home{
+	background-color: #FFB6C1;
+}
+
+#about{
+	background-color: #8FBC8F;
+}
+#assignment{
+	background-color: #F0FFFF;
+}
+h1{
+	position: absolute;
+	top: 15%;
+	left: 10%;
+	font-family: cursive;
+}
+h3{
+	top:20% ;
+	font-family: cursive;
+
+
+}
